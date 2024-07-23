@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Contenedor principal de la página de registro */
+  .register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Caja de registro */
+  .register-box {
+    width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #424242;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Logo de registro */
+  .register-logo a {
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Tarjeta de registro */
+  .card {
+    border: none;
+    box-shadow: none;
+  }
+  
+  /* Cuerpo de la tarjeta de registro */
+  .register-card-body {
+    padding: 20px;
+  }
+  
+  /* Mensaje de la caja de registro */
+  .login-box-msg {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Input y grupo de input */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Input de nombre, email y contraseña */
+  .form-control {
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  /* Iconos de input */
+  .input-group-text {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-left: none;
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .fas {
+    color: #aaa;
+  }
+  
+  /* Botón de registrar */
+  .btn-primary {
+    background-color: #424242;
+    border-color: #424242;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 4px;
+  }
+  
+  /* Checkbox de términos y condiciones */
+  .icheck-primary label {
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Enlace de términos */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-center a {
+    color: #424242;
+    text-decoration: none;
+  }
+  
